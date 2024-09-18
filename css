@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5dc; /* Beige */
+    color: #5d4037; /* Brown */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff7043; /* Orange */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff3e0; /* Light beige */
+}
+
+.cta-button {
+    background-color: #5d4037;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff7043;
+}
+
+.service-card {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+}
+
+.service-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.stat {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+}
+
+.stat h3 {
+    font-size: 3em;
+    color: #5d4037;
+    animation: grow 1.5s ease-in-out;
+}
+
+@keyframes grow {
+    from {
+        font-size: 0;
+    }
+    to {
+        font-size: 3em;
+    }
+}
